@@ -1,0 +1,302 @@
+{
+  "hero": {
+    "tagline": "Empowering Kenyan Dreams with Silky Loans",
+    "subtitle": "Fast, collateral-free microloans for entrepreneurs across Kenya",
+    "cta1": "Apply for a Loan",
+    "cta2": "Our Loan Products"
+  },
+  "metrics": [
+    { "value": "50,000+", "label": "Active Borrowers", "icon": "users" },
+    { "value": "KES 2.5B+", "label": "Loans Disbursed", "icon": "banknote" },
+    { "value": "69%", "label": "Women Borrowers", "icon": "heart" },
+    { "value": "47", "label": "Counties Served", "icon": "map" }
+  ],
+  "loanProducts": [
+    {
+      "id": "biasha-boost",
+      "name": "BiashaBoost",
+      "description": "Quick loans for retail businesses and market vendors",
+      "amount": "KES 5,000 - 50,000",
+      "term": "1-3 months",
+      "rate": "From 8% per month",
+      "icon": "store"
+    },
+    {
+      "id": "hustle-quick",
+      "name": "HustleQuick",
+      "description": "Fast cash for urgent business needs",
+      "amount": "KES 2,000 - 20,000",
+      "term": "2 weeks - 1 month",
+      "rate": "From 10% per month",
+      "icon": "zap"
+    },
+    {
+      "id": "pesa-ease",
+      "name": "PesaEase",
+      "description": "Flexible repayment for service businesses",
+      "amount": "KES 10,000 - 100,000",
+      "term": "3-6 months",
+      "rate": "From 7% per month",
+      "icon": "wallet"
+    },
+    {
+      "id": "mama-mboga",
+      "name": "Mama Mboga Special",
+      "description": "Tailored for vegetable and food vendors",
+      "amount": "KES 3,000 - 30,000",
+      "term": "1-2 months",
+      "rate": "From 9% per month",
+      "icon": "leaf"
+    },
+    {
+      "id": "boda-boda",
+      "name": "Boda Boda Finance",
+      "description": "Fuel and maintenance loans for riders",
+      "amount": "KES 5,000 - 40,000",
+      "term": "1-3 months",
+      "rate": "From 8.5% per month",
+      "icon": "bike"
+    },
+    {
+      "id": "salon-pro",
+      "name": "Salon Pro",
+      "description": "Beauty and salon business financing",
+      "amount": "KES 10,000 - 80,000",
+      "term": "2-4 months",
+      "rate": "From 7.5% per month",
+      "icon": "scissors"
+    },
+    {
+      "id": "tech-hustle",
+      "name": "TechHustle",
+      "description": "For tech-enabled businesses and startups",
+      "amount": "KES 20,000 - 150,000",
+      "term": "3-6 months",
+      "rate": "From 6.5% per month",
+      "icon": "smartphone"
+    },
+    {
+      "id": "group-loan",
+      "name": "Group Power",
+      "description": "Chama and group lending solutions",
+      "amount": "KES 50,000 - 500,000",
+      "term": "6-12 months",
+      "rate": "From 6% per month",
+      "icon": "users-round"
+    }
+  ],
+  "successStories": [
+    {
+      "id": 1,
+      "name": "Aisha Wambui",
+      "business": "Mama Mboga - Gikomba Market",
+      "location": "Nairobi",
+      "loanAmount": "KES 15,000",
+      "quote": "Kechita believed in me when banks wouldn't. Now my vegetables business feeds three families!",
+      "story": "Aisha started with a small stall in Gikomba Market. With Kechita's BiashaBoost loan, she expanded her inventory and now supplies to local restaurants. Her monthly revenue has tripled in just 6 months.",
+      "image": "kenyan_woman_entrepr_adf0e908.jpg",
+      "growth": "300% revenue increase"
+    },
+    {
+      "id": 2,
+      "name": "John Kamau",
+      "business": "Boda Boda Rider",
+      "location": "Nakuru",
+      "loanAmount": "KES 25,000",
+      "quote": "The Boda Boda Finance loan helped me buy a second bike. Now I employ my cousin!",
+      "story": "John was struggling with a worn-out motorcycle. Kechita's flexible repayment allowed him to maintain his bike and eventually purchase a second one. He's now a fleet owner employing family members.",
+      "image": "kenyan_man_motorcycl_61ffd98f.jpg",
+      "growth": "Owns 2 motorcycles"
+    },
+    {
+      "id": 3,
+      "name": "Grace Njeri",
+      "business": "Hair Salon - Thika Road",
+      "location": "Nairobi",
+      "loanAmount": "KES 50,000",
+      "quote": "Salon Pro transformed my small salon into the talk of the town!",
+      "story": "Grace dreamed of modern salon equipment. With Kechita's support, she bought new chairs, dryers, and premium products. Her client base doubled and she now trains other stylists.",
+      "image": "kenyan_woman_entrepr_fb7846fc.jpg",
+      "growth": "200% client increase"
+    },
+    {
+      "id": 4,
+      "name": "David Omondi",
+      "business": "Mobile Repair Shop",
+      "location": "Kisumu",
+      "loanAmount": "KES 40,000",
+      "quote": "TechHustle gave me the tools to fix more than just phones - it fixed my future!",
+      "story": "David's tech repair business was limited by lack of tools. The TechHustle loan enabled him to buy diagnostic equipment and expand into laptop repairs, multiplying his income.",
+      "image": "kenyan_man_motorcycl_fa025cca.jpg",
+      "growth": "4x income growth"
+    },
+    {
+      "id": 5,
+      "name": "Mary Wanjiru",
+      "business": "Tailoring Business",
+      "location": "Mombasa",
+      "loanAmount": "KES 35,000",
+      "quote": "With Kechita, I went from one sewing machine to five. My hustle is now a real business!",
+      "story": "Mary's tailoring skills were underutilized due to equipment shortage. PesaEase loan helped her buy industrial machines. She now handles bulk orders from schools and hotels.",
+      "image": "kenyan_woman_entrepr_6041e1b1.jpg",
+      "growth": "5 employees hired"
+    },
+    {
+      "id": 6,
+      "name": "Peter Mwangi",
+      "business": "Fruit Vendor",
+      "location": "Eldoret",
+      "loanAmount": "KES 20,000",
+      "quote": "HustleQuick lived up to its name - loan approved in 2 hours, business growing ever since!",
+      "story": "Peter needed fast cash to buy seasonal fruits in bulk. Kechita's quick approval process allowed him to seize the opportunity. He's now a regular borrower with expanding operations.",
+      "image": "african_entrepreneur_d27d85d4.jpg",
+      "growth": "3 market stalls"
+    },
+    {
+      "id": 7,
+      "name": "Susan Akinyi",
+      "business": "Restaurant Owner",
+      "location": "Nairobi",
+      "loanAmount": "KES 80,000",
+      "quote": "From a kibanda to a proper restaurant - Kechita made my dream real!",
+      "story": "Susan ran a roadside food stall (kibanda) for years. With BiashaBoost, she rented a space, bought equipment, and opened a full restaurant. She now serves 100+ customers daily.",
+      "image": "kenyan_woman_entrepr_6ce0fcd1.jpg",
+      "growth": "100+ daily customers"
+    },
+    {
+      "id": 8,
+      "name": "James Kipchoge",
+      "business": "Chama Investment Group",
+      "location": "Nakuru",
+      "loanAmount": "KES 200,000",
+      "quote": "Group Power empowered our chama to think bigger and achieve more together!",
+      "story": "James leads a 15-member investment chama. The Group Power loan enabled them to start a poultry project. They're now planning their second venture in dairy farming.",
+      "image": "african_entrepreneur_19cc0eae.jpg",
+      "growth": "15 families impacted"
+    }
+  ],
+  "impactData": {
+    "totalBorrowers": 52000,
+    "totalDisbursed": 2500000000,
+    "countiesServed": 47,
+    "jobsCreated": 15000,
+    "retentionRate": 94,
+    "repaymentRate": 96,
+    "womenBorrowers": 69
+  },
+  "smartHustleTips": [
+    {
+      "id": 1,
+      "title": "Track Every Shilling",
+      "description": "Keep daily records of income and expenses. Use simple notebooks or mobile apps like Excel to track your business cash flow.",
+      "icon": "calculator"
+    },
+    {
+      "id": 2,
+      "title": "Separate Business & Personal Money",
+      "description": "Open a separate M-Pesa account or bank account for your business. Never mix business funds with household expenses.",
+      "icon": "split"
+    },
+    {
+      "id": 3,
+      "title": "Build Emergency Stock",
+      "description": "Always maintain 10-15% of your inventory as emergency stock. This protects you during supply delays or demand spikes.",
+      "icon": "shield"
+    },
+    {
+      "id": 4,
+      "title": "Reinvest Profits Wisely",
+      "description": "Allocate at least 30% of profits back into the business. Focus on inventory, equipment, or marketing before personal spending.",
+      "icon": "trending-up"
+    },
+    {
+      "id": 5,
+      "title": "Network with Other Hustlers",
+      "description": "Join business groups, chamas, or online communities. Shared knowledge and bulk buying power can boost everyone's success.",
+      "icon": "handshake"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "Simon Mutunga",
+      "role": "CEO & Founder",
+      "bio": "15+ years in microfinance, passionate about inclusive financial access for all Kenyans.",
+      "quote": "Every entrepreneur deserves a chance to grow, regardless of their start.",
+      "image": "african_business_pro_97c11917.jpg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "id": 2,
+      "name": "Grace Wanjiku",
+      "role": "General Manager",
+      "bio": "Expert in operations and customer relations with deep understanding of Kenyan SME landscape.",
+      "quote": "Our success is measured by the dreams we help build.",
+      "image": "african_business_pro_940b4e1e.jpg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "id": 3,
+      "name": "Dr. James Odhiambo",
+      "role": "Chief Risk Officer",
+      "bio": "PhD in Financial Risk Management, ensuring sustainable lending practices.",
+      "quote": "Responsible lending creates lasting impact.",
+      "image": "african_business_pro_ef508d08.jpg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "id": 4,
+      "name": "Lucy Muthoni",
+      "role": "Head of Technology",
+      "bio": "Digital transformation leader making microloans accessible via mobile platforms.",
+      "quote": "Technology should empower, not complicate.",
+      "image": "african_business_pro_2a9bfcae.jpg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "id": 5,
+      "name": "Peter Kamau",
+      "role": "Community Relations Manager",
+      "bio": "Bridge between Kechita and grassroots entrepreneurs across 47 counties.",
+      "quote": "We don't just lend money, we build communities.",
+      "image": "african_business_pro_fb338cfc.jpg",
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  ],
+  "branches": [
+    { "name": "Nairobi CBD", "location": "Moi Avenue, Nairobi", "phone": "+254 712 345 001" },
+    { "name": "Gikomba", "location": "Gikomba Market, Nairobi", "phone": "+254 712 345 002" },
+    { "name": "Kawangware", "location": "Kawangware 56, Nairobi", "phone": "+254 712 345 003" },
+    { "name": "Eastleigh", "location": "1st Avenue, Eastleigh", "phone": "+254 712 345 004" },
+    { "name": "Thika Road", "location": "Thika Road Mall", "phone": "+254 712 345 005" },
+    { "name": "Westlands", "location": "Westlands Square", "phone": "+254 712 345 006" },
+    { "name": "Mombasa", "location": "Digo Road, Mombasa", "phone": "+254 712 345 007" },
+    { "name": "Kisumu", "location": "Oginga Odinga Street", "phone": "+254 712 345 008" },
+    { "name": "Nakuru", "location": "Kenyatta Avenue, Nakuru", "phone": "+254 712 345 009" },
+    { "name": "Eldoret", "location": "Uganda Road, Eldoret", "phone": "+254 712 345 010" },
+    { "name": "Thika", "location": "Thika Town Centre", "phone": "+254 712 345 011" },
+    { "name": "Kikuyu", "location": "Kikuyu Market", "phone": "+254 712 345 012" },
+    { "name": "Ruiru", "location": "Ruiru Bypass", "phone": "+254 712 345 013" },
+    { "name": "Kitengela", "location": "Kitengela Town", "phone": "+254 712 345 014" },
+    { "name": "Machakos", "location": "Machakos Bus Park", "phone": "+254 712 345 015" }
+  ],
+  "certifications": [
+    { "name": "Central Bank of Kenya (CBK)", "code": "CBK/MFI/2016/089" },
+    { "name": "Office of Data Protection Commissioner (ODPC)", "code": "ODPC/2019/0456" },
+    { "name": "Financial Reporting Centre (FRC)", "code": "FRC/AML/2018/234" },
+    { "name": "ISO 27001:2013", "code": "Information Security Certified" }
+  ],
+  "blogPost": {
+    "title": "Empowering Hustles: Smart Money Tips for 2025",
+    "date": "January 5, 2025",
+    "author": "Grace Wanjiku",
+    "excerpt": "As we step into 2025, Kenyan entrepreneurs face both challenges and opportunities. Here's how to make your hustle thrive this year.",
+    "content": "The Kenyan entrepreneurial spirit is unmatched. From Gikomba to Mombasa, our hustlers are the backbone of our economy. But success requires more than hard work - it needs smart financial planning.\n\nFirst, embrace digital tools. M-Pesa revolutionized payments, now let digital record-keeping revolutionize your business management. Apps like Excel, QuickBooks, or even simple WhatsApp business tools can transform how you track profits.\n\nSecond, understand your cash flow cycle. Know when money comes in and when it goes out. This helps you plan for slow periods and capitalize on busy seasons.\n\nThird, build relationships with reliable lenders like Kechita. Having access to quick, collateral-free capital can mean the difference between seizing an opportunity and watching it pass by.\n\nFinally, invest in yourself. Attend workshops, join business groups, learn from other entrepreneurs. Your growth mindset is your greatest asset.\n\n2025 is your year to shine. Make every shilling count!",
+    "image": "kenyan_mobile_money__7d0a7d24.jpg"
+  }
+}
