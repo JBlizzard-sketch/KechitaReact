@@ -1,0 +1,112 @@
+You are a senior AI full-stack engineer building a complete, production-ready **React + Vite + TailwindCSS** website for a Kenyan fintech brand called **Kechita**. Do it in **one or two full builds maximum**, with full polish — no placeholders or TODOs. The goal is a finished, beautiful, preview-ready static site running directly inside Replit.
+
+---
+
+### 🌍 OVERVIEW
+**Kechita** empowers Kenyan entrepreneurs with fast, collateral-free microloans.  
+The website should feel silky-smooth, modern, and proudly Kenyan — minimal grids, rich color accents, and intuitive mobile UX.  
+I will **upload the Kechita logo**, which **must be used everywhere possible**: in the navbar, favicon, footer, About page, and Open Graph metadata.  
+Ensure it fits perfectly with the site colors and overall aesthetic.
+
+---
+
+### ⚙️ STACK
+- React (Vite)
+- TailwindCSS
+- React Router DOM
+- Framer Motion (animations)
+- React Helmet Async (SEO)
+- Optional TypeScript
+- Lazy image loading
+- ESLint + Prettier
+- Ready for GitHub export
+
+---
+
+### 📂 STRUCTURE (10 ROUTED PAGES)
+1. **Home** – Hero section with tagline “Empowering Kenyan Dreams with Silky Loans.”  
+   Animated metrics (e.g., 69% women borrowers), CTA buttons, and hero background with a Kenyan market Unsplash photo.  
+   Smooth fades and scroll motion.
+2. **About** – Mission statement, 8-year history, full certifications (CBK, ODPC, FRC, ISO27001), team vision.  
+   Include parallax-style timeline and inspirational subheading: *“Kenya’s Hustle in Motion.”*
+3. **Loan Products** – 8 products (BiashaBoost, HustleQuick, PesaEase, etc.), cards with hover glow effects, icons, and short terms/benefits.
+4. **Apply Now** – Static form (name, phone/M-Pesa, email, amount, business type, referral).  
+   JS alert: “Asante sana! Tunapiga simu kesho — your growth, our pride!”
+5. **Success Stories** – 8 user stories (Aisha the Mama Mboga, John the Boda Rider, etc.) with modals, photos, and quotes.
+6. **Impact Report** – Animated counters and Recharts visualizations (borrowers, KES disbursed, counties, jobs, retention, repayment rates).
+7. **Resources** – 5 Smart Hustle tip cards (expandable), small loan calculator placeholder, simple icons.
+8. **Blog** – One sample article (“Empowering Hustles: Tips for 2025”) + 2 Unsplash images, ready for expansion.
+9. **Team** – 5 staff members (CEO Simon Mutunga, GM Grace Wanjiku, etc.) with short bios, quotes, social icons.
+10. **Contact & Legal** – Contact form, 80 branch list (sample data), Google map embed placeholder, and collapsible Privacy Policy + Terms of Service tabs.
+
+---
+
+### 🎨 DESIGN
+**Color palette:**
+- Teal → `#0E7490` to `#084E67`
+- Lime → `#65A30D` to `#4D7C0F`
+- Whites → `#F9FAFB` + `#F5F5DC`
+Use soft glow shadows, hover transitions, and a premium fintech vibe.  
+Font: **Inter** or **Poppins**, mobile-first design with rounded 2xl corners, spacing, and motion.  
+
+The uploaded **Kechita logo** should appear:
+- In the navbar (top-left)
+- As favicon (`public/favicon.ico`)
+- In About + Footer sections
+- In Open Graph metadata
+Adjust its sizing and background to blend with the theme.
+
+---
+
+### 🧱 ASSETS
+- 12 embedded `.webp` hero images in `/public/assets/images/hero1.webp...hero12.webp`
+- 48+ lazy-loaded Unsplash images (Kenyan entrepreneurs, boda bodas, duka owners, markets)
+- All text and image URLs stored in `/src/content/site.json`
+
+---
+
+### 📁 CONTENT FILES
+`/src/content/site.json` includes:
+- Tagline + metrics
+- Loan product list
+- 8 success stories
+- 80 branches (sample list)
+- Blog post
+- Image URLs (60 total)
+
+---
+
+### 🧠 EXECUTION PLAN
+**Phase 1:**  
+- Initialize project with React + Vite + Tailwind + Router + Helmet + Framer Motion.  
+- Create 10 fully functional routed pages.  
+- Populate site.json and placeholder images.
+
+**Phase 2:**  
+- Apply full styling + responsive design.  
+- Integrate lazy image loading + Framer Motion transitions.  
+- Add SEO metadata, favicon, and logo placement.  
+- Polish layout and animations for mobile-first optimization.
+
+---
+
+### 🔍 SEO & ACCESSIBILITY
+- Use `react-helmet-async` for titles, meta, and OG tags.
+- Include alt text for all images.
+- WCAG AA contrast compliance.
+- Keywords: “microloans Kenya,” “business finance,” “M-Pesa loans,” “Kechita microcredit.”
+
+---
+
+### ✅ FINAL EXPECTATIONS
+- Project runs cleanly in Replit preview.
+- No missing images or TODOs.
+- Logo visible across pages.
+- All 10 pages visually consistent, mobile responsive, smooth animations.
+- Ready for GitHub push and deploy.
+
+---
+
+💥 Deliver the **entire functional app** now — one complete build.  
+If needed, perform a **second build** only for advanced polish and animation refinement.  
+Ensure it’s **beautiful, performant, and authentically Kenyan 🇰🇪✨**
