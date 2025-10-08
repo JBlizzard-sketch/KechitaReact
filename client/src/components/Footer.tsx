@@ -74,7 +74,7 @@ export default function Footer() {
         <div className="border-t border-sidebar-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2025 Kechita Capital Investment Limited. All rights reserved. Made with ❤️ in Kenya
+              © 2025 Kechita Capital Investment Limited. All rights reserved. Made with ❤️ in Kenya by Munuve Technologies (0745594805/joeshady69@gmail.com)
             </p>
             <div className="flex gap-6">
               <Link href="/contact#privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-privacy">Privacy Policy</Link>
