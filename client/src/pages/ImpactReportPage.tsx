@@ -38,9 +38,12 @@ export default function ImpactReportPage() {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
+              <div className="inline-block mb-4">
+                <span className="text-6xl">📈</span>
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-impact-title">Our Impact Report</h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto" data-testid="text-impact-subtitle">
-                Transparent data on how we're transforming lives across Kenya
+                Transparent data on how we're transforming lives across Kenya 🇰🇪
               </p>
             </motion.div>
           </div>

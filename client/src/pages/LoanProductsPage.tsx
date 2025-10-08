@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
@@ -54,12 +55,18 @@ export default function LoanProductsPage() {
               transition={{ duration: 0.6 }}
               className="mt-16 text-center"
             >
+              <div className="inline-block mb-4">
+                <span className="text-6xl">🚀</span>
+              </div>
               <h2 className="text-2xl md:text-3xl font-bold mb-4" data-testid="text-loans-cta-title">Ready to Apply?</h2>
               <p className="text-lg text-muted-foreground mb-6" data-testid="text-loans-cta-subtitle">
-                Application takes less than 5 minutes. Get approved within hours.
+                Application takes less than 5 minutes. Get approved within hours. ⚡
               </p>
               <Link href="/apply">
-                <Button size="lg" data-testid="button-apply-loans">Apply Now</Button>
+                <Button size="lg" className="group" data-testid="button-apply-loans">
+                  Apply Now
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
               </Link>
             </motion.div>
           </div>

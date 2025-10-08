@@ -23,10 +23,11 @@ export default function StoryModal({ open, onOpenChange, story }: StoryModalProp
         <DialogHeader>
           <div className="relative h-64 -mx-6 -mt-6 mb-4 overflow-hidden rounded-t-lg">
             <img
-              src={`https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=400&fit=crop`}
+              src={`https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&h=400&fit=crop&q=80`}
               alt={story.name}
               className="w-full h-full object-cover"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent"></div>
           </div>
           <DialogTitle className="text-2xl" data-testid="text-modal-story-name">{story.name}</DialogTitle>
           <DialogDescription className="space-y-2">

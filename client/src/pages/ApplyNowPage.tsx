@@ -5,6 +5,8 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { CheckCircle2, Clock, Shield, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -61,10 +63,28 @@ export default function ApplyNowPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
+            <div className="inline-block mb-4 text-center w-full">
+              <span className="text-6xl">📝</span>
+            </div>
             <h1 className="text-3xl md:text-4xl font-bold text-center mb-4" data-testid="text-apply-title">Apply for a Loan</h1>
-            <p className="text-lg text-muted-foreground text-center mb-8" data-testid="text-apply-subtitle">
-              Simple, fast, and secure. Get approved in hours, not days.
+            <p className="text-lg text-muted-foreground text-center mb-6" data-testid="text-apply-subtitle">
+              Simple, fast, and secure. Get approved in hours, not days. ⚡
             </p>
+            
+            <div className="flex flex-wrap justify-center gap-4 mb-8">
+              <Badge variant="secondary" className="px-4 py-2">
+                <Clock className="h-4 w-4 mr-2" />
+                <span>5-min application</span>
+              </Badge>
+              <Badge variant="secondary" className="px-4 py-2">
+                <Shield className="h-4 w-4 mr-2" />
+                <span>No collateral needed</span>
+              </Badge>
+              <Badge variant="secondary" className="px-4 py-2">
+                <CheckCircle2 className="h-4 w-4 mr-2" />
+                <span>Same-day approval</span>
+              </Badge>
+            </div>
 
             <Card>
               <CardHeader>
@@ -183,8 +203,9 @@ export default function ApplyNowPage() {
                       )}
                     />
 
-                    <Button type="submit" className="w-full" size="lg" data-testid="button-submit-application">
+                    <Button type="submit" className="w-full group" size="lg" data-testid="button-submit-application">
                       Submit Application
+                      <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </form>
                 </Form>

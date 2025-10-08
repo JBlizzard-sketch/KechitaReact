@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
-import { Linkedin, Twitter } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+import { Linkedin, Twitter, Award } from 'lucide-react';
 
 interface TeamMemberCardProps {
   name: string;
@@ -22,20 +23,25 @@ export default function TeamMemberCard({ name, role, bio, quote, image, linkedin
       transition={{ duration: 0.5, delay: index * 0.1 }}
       data-testid={`card-team-${index}`}
     >
-      <Card className="h-full hover:shadow-xl hover:shadow-primary/10 transition-all duration-300">
+      <Card className="h-full hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 group">
         <CardContent className="p-6">
-          <div className="relative w-32 h-32 mx-auto mb-4 rounded-2xl overflow-hidden">
+          <div className="relative w-32 h-32 mx-auto mb-4 rounded-2xl overflow-hidden ring-4 ring-primary/10 group-hover:ring-primary/30 transition-all">
             <img
-              src={`https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&fit=crop`}
+              src={`https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&q=80`}
               alt={name}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               loading="lazy"
             />
+            <div className="absolute -top-2 -right-2 bg-primary text-white rounded-full p-1.5">
+              <Award className="h-4 w-4" />
+            </div>
           </div>
           
           <div className="text-center mb-4">
-            <h3 className="font-bold text-lg mb-1" data-testid={`text-team-name-${index}`}>{name}</h3>
-            <p className="text-sm text-primary font-medium mb-2" data-testid={`text-team-role-${index}`}>{role}</p>
+            <h3 className="font-bold text-lg mb-2" data-testid={`text-team-name-${index}`}>{name}</h3>
+            <Badge variant="secondary" className="mb-3">
+              <span className="text-xs font-medium" data-testid={`text-team-role-${index}`}>{role}</span>
+            </Badge>
             <p className="text-sm text-muted-foreground leading-relaxed mb-3" data-testid={`text-team-bio-${index}`}>{bio}</p>
             <div className="bg-sidebar px-4 py-3 rounded-lg">
               <p className="text-xs italic text-foreground" data-testid={`text-team-quote-${index}`}>"{quote}"</p>

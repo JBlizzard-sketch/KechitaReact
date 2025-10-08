@@ -1,5 +1,5 @@
 import { Link } from 'wouter';
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, Heart } from 'lucide-react';
 import logo from '@assets/../public/logo.png';
 
 export default function Footer() {
@@ -10,11 +10,12 @@ export default function Footer() {
           <div>
             <img src={logo} alt="Kechita Capital" className="h-12 w-auto mb-4" />
             <p className="text-sm text-muted-foreground mb-4">
-              Empowering Kenyan entrepreneurs with fast, collateral-free microloans since 2016.
+              Empowering Kenyan entrepreneurs with fast, collateral-free microloans since 2016. 🚀
             </p>
-            <p className="text-xs text-muted-foreground italic">
-              Your Growth, Our Pride 🇰🇪
-            </p>
+            <div className="inline-flex items-center gap-2 bg-sidebar-accent/50 rounded-full px-3 py-1.5">
+              <Heart className="h-3 w-3 text-chart-2 fill-chart-2" />
+              <p className="text-xs font-medium">Your Growth, Our Pride 🇰🇪</p>
+            </div>
           </div>
 
           <div>
@@ -73,7 +74,7 @@ export default function Footer() {
         <div className="border-t border-sidebar-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2025 Kechita Capital Investment Limited. All rights reserved.
+              © 2025 Kechita Capital Investment Limited. All rights reserved. Made with ❤️ in Kenya
             </p>
             <div className="flex gap-6">
               <Link href="/contact#privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-privacy">Privacy Policy</Link>

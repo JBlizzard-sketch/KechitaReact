@@ -24,9 +24,12 @@ export default function SuccessStoriesPage() {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
+              <div className="inline-block mb-4">
+                <span className="text-6xl">✨</span>
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-stories-title">Real Stories, Real Success</h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto" data-testid="text-stories-subtitle">
-                Meet the entrepreneurs who turned their dreams into thriving businesses with Kechita
+                Meet the entrepreneurs who turned their dreams into thriving businesses with Kechita 🎉
               </p>
             </motion.div>
           </div>

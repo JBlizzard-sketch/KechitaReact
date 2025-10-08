@@ -58,9 +58,12 @@ export default function ContactPage() {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
+              <div className="inline-block mb-4">
+                <span className="text-6xl">📞</span>
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-contact-title">Get in Touch</h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto" data-testid="text-contact-subtitle">
-                We're here to help. Reach out anytime.
+                We're here to help. Reach out anytime. 💬
               </p>
             </motion.div>
           </div>

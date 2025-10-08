@@ -20,9 +20,12 @@ export default function TeamPage() {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
+              <div className="inline-block mb-4">
+                <span className="text-6xl">👥</span>
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-team-title">Meet Our Team</h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto" data-testid="text-team-subtitle">
-                Passionate leaders dedicated to empowering Kenya's entrepreneurs
+                Passionate leaders dedicated to empowering Kenya's entrepreneurs 🇰🇪
               </p>
             </motion.div>
           </div>

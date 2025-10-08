@@ -24,9 +24,12 @@ export default function BlogPage() {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
+              <div className="inline-block mb-4">
+                <span className="text-6xl">📚</span>
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-blog-title">Kechita Blog</h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto" data-testid="text-blog-subtitle">
-                Insights, tips, and stories from the world of Kenyan entrepreneurship
+                Insights, tips, and stories from the world of Kenyan entrepreneurship 💼
               </p>
             </motion.div>
           </div>
@@ -41,12 +44,18 @@ export default function BlogPage() {
               transition={{ duration: 0.6 }}
             >
               <Card className="overflow-hidden">
-                <div className="relative h-96">
+                <div className="relative h-96 overflow-hidden">
                   <img
-                    src={blogImage}
+                    src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=600&fit=crop&q=80"
                     alt={blogPost.title}
                     className="w-full h-full object-cover"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
+                  <div className="absolute bottom-6 left-6 right-6">
+                    <div className="inline-flex items-center gap-2 bg-primary/90 backdrop-blur-sm text-white rounded-full px-4 py-2 mb-3">
+                      <span className="text-sm font-semibold">📱 Mobile Money Innovation</span>
+                    </div>
+                  </div>
                 </div>
                 <CardContent className="p-8">
                   <div className="flex items-center gap-6 text-sm text-muted-foreground mb-4">

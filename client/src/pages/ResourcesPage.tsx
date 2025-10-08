@@ -24,9 +24,12 @@ export default function ResourcesPage() {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
+              <div className="inline-block mb-4">
+                <span className="text-6xl">💡</span>
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-resources-title">Business Resources</h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto" data-testid="text-resources-subtitle">
-                Tools and tips to help your business thrive
+                Tools and tips to help your business thrive 🚀
               </p>
             </motion.div>
           </div>

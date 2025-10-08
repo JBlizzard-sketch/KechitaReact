@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
-import { Award, Shield, TrendingUp, Users } from 'lucide-react';
+import { Award, Shield, TrendingUp, Users, Sparkles, Target, Heart } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import siteData from '@/content/site.json';
 import logo from '@assets/../public/logo.png';
@@ -40,6 +40,9 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
               className="max-w-4xl mx-auto"
             >
+              <div className="inline-block mb-4 text-center w-full">
+                <span className="text-6xl">🎯</span>
+              </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center" data-testid="text-mission-title">Our Mission</h2>
               <p className="text-lg text-muted-foreground leading-relaxed text-center mb-12" data-testid="text-mission-content">
                 Kechita Capital was born from a simple belief: every Kenyan entrepreneur deserves access to capital, 

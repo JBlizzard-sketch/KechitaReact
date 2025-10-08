@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { MapPin, TrendingUp } from 'lucide-react';
+import { MapPin, TrendingUp, ArrowRight, Sparkles } from 'lucide-react';
 
 interface StoryCardProps {
   name: string;
@@ -24,14 +24,17 @@ export default function StoryCard({ name, business, location, quote, growth, ima
       whileHover={{ scale: 1.02 }}
       data-testid={`card-story-${index}`}
     >
-      <Card className="overflow-hidden h-full hover:shadow-xl hover:shadow-primary/10 transition-all duration-300">
+      <Card className="overflow-hidden h-full hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 group">
         <div className="relative h-48 overflow-hidden">
           <img
-            src={`https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=300&fit=crop`}
+            src={`https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop&q=80`}
             alt={name}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
           />
+          <div className="absolute top-3 right-3 bg-chart-2 text-white rounded-full p-2">
+            <Sparkles className="h-4 w-4" />
+          </div>
         </div>
         <CardContent className="p-6">
           <h3 className="font-bold text-lg mb-1" data-testid={`text-story-name-${index}`}>{name}</h3>
@@ -49,8 +52,9 @@ export default function StoryCard({ name, business, location, quote, growth, ima
               <span data-testid={`text-story-growth-${index}`}>{growth}</span>
             </div>
           </div>
-          <Button onClick={onClick} variant="outline" size="sm" className="w-full" data-testid={`button-read-story-${index}`}>
+          <Button onClick={onClick} variant="outline" size="sm" className="w-full group/btn" data-testid={`button-read-story-${index}`}>
             Read Full Story
+            <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
           </Button>
         </CardContent>
       </Card>
